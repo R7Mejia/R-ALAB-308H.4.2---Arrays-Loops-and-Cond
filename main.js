@@ -69,7 +69,7 @@ for (let d = 0; d < ninjaTurtles.length; d++){
 ////////////////EXERCISE SIX+/////////////////////
 ///////////////Methods, Revisited////////////////
 //Here is a list of favorite movies:
-
+/*
 const favMovies = ['Jaws', 'The Fellowship of the Ring',
     'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas',
     'The Usual Suspects', 'Toy Story', 'Conan the Barbarian',
@@ -77,7 +77,7 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring',
     'Volver', 'Oculus', 'Seven', 'Black Panther',
     'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
     
-/*//console log the index of Titanic
+//console log the index of Titanic
 console.log(favMovies[8]) 
 //Use the.sort method.
 favMovies.sort();
@@ -108,7 +108,21 @@ console.log(favMovies);*/
 /*const fastAndFuriousIndex = favMovies.indexOf("Fast and Furious");
 console.log(fastAndFuriousIndex);*/
 
+////////////////EXERCISE SEVEN/////////////////////
+///////////////Where is Waldo////////////////////
 
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+// Remove Eggbert (hint look at the slice/splice methods).
+/*whereIsWaldo.splice(1, 1);
+console.log(whereIsWaldo)
+// Change "Neff" to "No One".*/
+//const neffIndex = whereIsWaldo.indexOf("Neff");
+whereIsWaldo.splice([2][2], 1, 'No One');
+console.log(whereIsWaldo);//Still not working
+
+// Access and console.log "Waldo".
 
 
 
